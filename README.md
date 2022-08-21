@@ -1,5 +1,5 @@
 ```sequence
-Identity Provider<-IFS Applications: Delegates Authentication
-Identity Provider<-Client: Authenticates
-IFS Applications<-Client: Accesses protected resources
+IFS Applications->Identity Provider: Delegates Authentication
+Client->Identity Provider: Authenticates
+Client->IFS Applications: Accesses protected resources
 ```
