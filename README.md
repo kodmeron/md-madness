@@ -1,4 +1,7 @@
 ```mermaid
+participant User
+participant Login_Page
+participant Database
 User->>+Login_Page: Visit
 User->>+Login_Page: Enter a username/password
 User->>+Login_Page: Login
